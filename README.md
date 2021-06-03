@@ -5,4 +5,4 @@ Cargoの操作
 `$ cargo build`
 
 実行  
-`$ cargo build`
+`$ cargo `
