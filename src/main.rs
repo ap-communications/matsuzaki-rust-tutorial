@@ -30,7 +30,7 @@ fn main() {
             }
 
             "client" => {
-                // TODO: TCPクライアントの呼び出し
+                tcp_client::connect(address).unwrap_or_else(|e| error! ("{}", e));
             }
 
             _ => {
